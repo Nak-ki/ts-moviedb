@@ -1,0 +1,49 @@
+.MovieList{
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 10px;
+    font-family: "Comic Neue", cursive;
+
+}
+
+.MovieList div{
+    width: 500px;
+    padding: 15px;
+
+
+
+}
+.PageButtons{
+    /*display: flex;*/
+    /*align-content: center;*/
+    /*justify-content: center;*/
+    /*width: 100px;*/
+    margin-top: 30px;
+    gap: 40px;
+    display: flex;
+    /*flex-direction: ;*/
+    align-content: center;
+    justify-content: center;
+    /*position: sticky;*/
+    /*top: 1300px;*/
+    /*bottom: 0;*/
+    /*right: 700px;*/
+
+}
+
+button{
+    width: 200px;
+    height: 37px;
+    font-size: 20px;
+    font-family: "Henny Penny", cursive;
+    border: #f3a1c4 2px solid;
+    color: #ff007f;
+}
+
+button:hover{
+    color: #ffffff;
+    background: #b6075a;
+}

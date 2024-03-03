@@ -1,0 +1,6 @@
+export * from './BadgeGenre/BadgeGenre'
+export * from './Genre/Genre'
+export * from './Genres/Genres'
+export * from './Genre/Genre.module.css'
+export * from './Genres/Genres.module.css'
+export * from './BadgeGenre/BadgeGenre.module.css'
